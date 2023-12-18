@@ -4,7 +4,7 @@ import CategoryCard from './CategoryCard'
 export default function CategoryList() {
     return (
         <main className=''>
-            <h3 className='font-bold pb-2 pl-4 text-2xl text-[#A970F8] underline underline-offset-8 hover:cursor-pointer'>Categorías</h3>
+            <h3 className='font-bold pb-2 pl-4 text-2xl text-purple-300 underline underline-offset-8 hover:text-purple-400 hover:cursor-pointer'>Categorías</h3>
             <div className='grid grid-cols-6 p-2 '>
                 <CategoryCard image='https://static-cdn.jtvnw.net/ttv-boxart/2085980140_IGDB-285x380.jpg' title='Lethal Company' spectators='20432' />
                 <CategoryCard image='https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg' title='ROBLOX' spectators='3518' />
