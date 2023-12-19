@@ -20,7 +20,8 @@ export default function Streamer(props) {
                         Number(viewers) === 0 && <div className='w-2 h-2 bg-gray-500 rounded-full'></div>
                     }
                     {
-                        Number(viewers) !== 0 && <p className='text-sm'>{viewers} k</p>
+                        Number(viewers) !== 0 && <p className='text-sm'>{viewers} k</p> ||
+                        Number(viewers) === 0 && <p className='text-sm text-gray-500'>Offline</p>
                     }
                 </div>
             </div>
